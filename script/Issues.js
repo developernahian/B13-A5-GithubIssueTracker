@@ -129,7 +129,7 @@ function openIssueModal(issue){
     <span>•</span>
     
      <p>Opened by ${issue.author}</p>
-     <span>•</span>
+     <span> • </span>
     <p>${new Date(issue.createdAt).toLocaleDateString()}</p>
     </div>
     
