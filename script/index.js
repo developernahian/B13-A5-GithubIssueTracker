@@ -8,7 +8,7 @@ loginBtn.addEventListener("click", function(e){
   const password = userPassword.value;
  
   if(name === "admin" && password === "admin123"){
-    window.location.href = "Issues.html"
+    window.location = "Issues.html"
   }
   else{
     alert( "Wrong username or password ")
